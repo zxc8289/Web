@@ -1,0 +1,189 @@
+@charset "utf-8";
+body {
+    margin: 0px;
+    font-size: 18px;
+    color: #FFF;
+}
+#box {
+    position: relative;
+    height: auto;
+    margin: auto;
+    background-color: #F90;
+}
+
+/*좌측 부분*/
+#left {
+
+    left: -26.3%;
+    margin-left:500px;
+    background-color: #87cefa;
+    float: left;
+    height: 940px;
+    width: 22.6%;
+    position: fixed;
+    text-align: center;
+    
+}
+
+#leftfont{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px; 
+    font-size: 42px;
+}
+
+#leftfont2{
+    text-align: center;
+    font-size: 15px;
+}
+
+#line{
+    width: 300px;
+    border: 1px dashed white;
+    text-align: center;
+    margin-left: 65px;
+
+}
+
+#LeftCircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 55px;
+    margin-left: 160px;
+}
+
+#LeftCircle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 55px;
+    margin-left: 160px;
+}
+
+#LeftCircle3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 55px;
+    margin-left: 160px;
+}
+/*메인 부분*/
+#main {
+    left:23%;
+    background-color: white;
+    float: left;
+    height: 1600px;
+    width: 1000px;
+    position: relative;
+}
+
+#mainfont{
+    color: #87cefa;
+    margin-left: 230px;
+    margin-top: 50px;
+    font-size: 90px;
+    font-weight: 50;
+
+}
+
+.MainCircle{
+    width: 680px;
+    height: 45px;
+    border: 4px solid #87cefa;
+    border-radius: 80px;
+    margin-left: 80px;
+    margin-top: -80px;
+    text-align: center;
+    color: #87cefa;
+    font-weight: bold;
+    font-size: 30px;  
+}
+
+#Circlefont{margin-top: 0px;}
+
+#maintext{
+    color: #808080;
+    margin-left: -155px;
+    font-size:25px;
+    line-height: 1.6;
+    font-family: "Monospace";
+}
+
+#maintext2{
+    color: #87cefa;
+    margin-left: -85px;
+    margin-top: -418px;
+    font-size:17px;
+    line-height: 1.6;
+    font-family: "Monospace";
+    font-weight: bold;
+}
+
+#maintext3{
+    color: black;
+    margin-left: 238px;
+    margin-top: -25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#maintext4{
+    color: #808080;
+    margin-left: 239px;
+    margin-top: -75px;
+    font-size: 15px;
+}
+
+.MainCircle2{
+    width: 680px;
+    height: 45px;
+    border: 4px solid #87cefa;
+    border-radius: 80px;
+    margin-left: 80px;
+    margin-top: -30px;
+    text-align: center;
+    color: #87cefa;
+    font-weight: bold;
+    font-size: 30px;  
+}
+
+#Circlefont2{margin-top: 0px;}
+
+
+#mainline{
+    height: 390px; width: 0px;
+    border: 1px dashed #d3d3d3;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 50px;
+
+}
+
+#img1{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+#img2{
+    margin-left: 380px;
+    margin-top: -250px;
+}
+
+#img1text{
+    color: black;
+    margin-left: 196px;
+    margin-top: -35px;
+    font-size: 25px;
+}
+
+
+#img2text{
+    color: black;
+    margin-left: 540px;
+    margin-top: -10px;
+    font-size: 25px;
+}
