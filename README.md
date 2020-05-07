@@ -4,5 +4,5 @@
 
 ```markdown
 빈칸 채워넣기
-<h1>Thank you</h1>
+##Thank you
 ```
