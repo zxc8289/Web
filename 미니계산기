@@ -1,0 +1,49 @@
+<html>
+ <head>
+  <title>미니계산기</title>
+  <script language="javascript">
+  <!--
+      var x
+      function ch(x){
+      n1=eval(document.gg.f1.value);
+      n2=eval(document.gg.f2.value);
+   
+      if(x=="a"){
+        n3=n1+n2;
+        document.gg.f3.value=n3;
+        }
+      else if(x=="b"){
+        n3=n1-n2;
+        document.gg.f3.value=n3;
+      }
+      else if(x=="c"){
+        n3=n1*n2;
+        document.gg.f3.value=n3;
+      }
+      else if(x=="d"){
+        n3=n1/n2;
+        document.gg.f3.value=n3;
+      }
+    }
+   //자바스크립트 끝-->
+  </script>
+  </head>
+    <body>
+     <center>
+     <table border>
+     <form name="gg">
+       <caption>미니 계산기</caption>
+       <tr><td colspan=3>숫자1<td colspan=3><input type="text" name="f1"><br> </tr>
+       <tr><td colspan=3>숫자2<td colspan=3><input type="text" name="f2"><br> </tr>
+       <tr align=center> <td colspan=3>사칙연산<td colspan=3> <br>
+            <input type="button" value=" + " onclick="ch('a')";>&nbsp;
+            <input type="button" value=" - " onclick="ch('b')";>&nbsp;
+            <input type="button" value=" * " onclick="ch('c')";>&nbsp;
+            <input type="button" value=" / " onclick="ch('d')";>&nbsp;
+       </tr>
+       <tr><td colspan=3>결과 :  <td colspan=3><input type="text" name="f3"><br> </tr>
+    </form>
+    </table>
+    </center>
+  </body>
+</html>
